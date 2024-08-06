@@ -1,0 +1,14 @@
+Proof of concept repo to show
+
+git merge --no-ff
+
+--no-ff stands for no fast forward. It forcibly creates a merge commit even if
+fast forward would have sufficed.
+
+Correct way to visualize the graph:
+
+git log --graph
+
+And if you only want the merge commit:
+
+git log --first-parent
